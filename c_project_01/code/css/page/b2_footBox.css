@@ -1,0 +1,60 @@
+/*b2_footBox.css*/
+#footBox    { 
+  width: 100%; 
+  padding-top: 68px; box-sizing: border-box;
+  background-color: #333; 
+}
+
+.area_foot {  height: auto;  }
+  
+  .info_logo{
+    width:120px; height:70px; 
+    margin-bottom:45px;
+    /* background-color: #aaa; */
+    background-image: url("../../img/footBox/osam_sub_logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    }
+  .info_company{
+    width:100%; height:auto; min-height: 135px;
+    font-size:14px; color:#fff;
+    /* background-color: #aaa; */
+  }
+
+  .company_content {
+    float: left;
+    width: 600px; height: 200px; 
+  }
+
+  .list_corp { 
+    width: 100%; height: 27px; margin-bottom: 25px;
+  }
+  .list_corp li {float:left; margin-left:14px;}
+  .list_corp li:first-child {margin-left:0px;}
+  .list_corp li a {padding:5px;}
+
+  address {width: 100%; height: auto; font-style:normal;}
+  address p{ width: 100%; height: auto;  padding-left:8px;}
+  address dl{
+    width: 100%; height: auto; margin-top:5px; }
+  address dl:last-of-type {    margin-bottom: 30px;  }
+  address dt{ display:inline-block; padding:5px; text-transform: uppercase;}
+  address dt::after{content:":"; padding-left:8px;}
+  address dd{ display:inline-block; padding:5px;}
+  address dd::after{content:"|"; padding-left:8px;}
+  address dd:last-of-type::after{content:""; display: none;}
+
+.social_family {
+    float:right;
+    width: 160px; height: auto;  }
+  .social { width: 100%; height:40px; margin-bottom: 25px;}
+  .social ul { width: 100%; height: 100%; }
+  .social li {float: left; width: 40px; height: 40px; margin-left:20px;}
+  .social li:first-child {margin-left: 0;}
+  .social li a {display: block; width: 100%; height: 100%; border-radius:100%; background-color: #fff;}
+
+.family_site { width: 100%; height: 30px; margin-bottom: 7px;}
+  #site {width: 100%; height: 100%; border:0; padding:0 8px; box-sizing: border-box; border-radius:3px; background-color: #fff; }
+  .authentication {width: 100%; height: 50px; background-color: #fff;
+  border-radius:3px;}
